@@ -8,21 +8,9 @@ import java.util.Set;
 public class Main {
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        List<Integer>  permutation = new ArrayList<>();
 
-        for(int i = 0; i < nums.length; ++i){
-            permutation.clear();
-
-            permutation.add(nums[i]);
-            for(int j = 0; j < nums.length; ++j){
-                if(i != j)
-                    permutation.add(nums[j]);
-            }
-
-
-//            System.out.println(permutation);
-            res.add(permutation);
-        }
+        if(nums.length == 1)
+            return res.
 
         return res;
     }
