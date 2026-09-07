@@ -48,8 +48,6 @@ public class Main {
 
         prereqMap = fillMap(prereqMap, prerequisites);
 
-
-
         while (true){
             if(nums.size() == setSize)
                 break;
